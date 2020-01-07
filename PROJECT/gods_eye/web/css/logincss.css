@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 27, 2017, 9:36:09 PM
+    Author     : John Paul Francis
+*/
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+body {
+    background-image: url("../user/photo/kdh.jpg");
+	font-family: 'Roboto';
+}
+
+.box {
+	background-color: #fff;
+        margin-top: 200px;
+	padding: 25px 40px;
+	margin-top: 30px; /*Remove, its example*/
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-group {
+	margin: 5px 0px;
+        margin-top: 50px;
+}
+
+.btn-primary {
+	border-radius: 2px;
+	background-color: #23a9f6;
+	border-color: #23a9f6;
+	margin: 10px 0px;
+}
+
+p {
+	color: #aebbcb;
+} 
+
+a {
+	color: #23a9f6;
+}
+
+.divider-form {
+    border: 1px solid #EBEFF1;
+    margin: 15px -40px 10px;
+}
+
+label {
+	text-transform: uppercase;
+	color: #bdc7d4;
+}
+
+strong {
+	color: #95a5bb;
+}
+
+.form-control {
+    background: none;
+    height: 40px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 5px 1px 1px 1px #bdc7d4;
+    color: #8b9eb6;
+    padding: 0px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+
+        ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                position:relative;
+                top: 0;
+                width: 100%;
+            }
+            li
+            {
+                float: left;
+                padding-left: 20px;
+                padding-top: 7px;
+                padding-bottom: 5px;
+            }
+            li a
+            {
+                display: block;
+                color: white;
+                padding: 10px;
+                text-decoration: none;
+            }
+            
+            li a:hover {
+             background-color: red;
+             padding-right: 25px;
+             padding-left: 25px;
+             text-decoration: none;
+             color:white;
+            }
+            
+            ol
+            {
+                float: left;         
+                padding-top: 6px;
+            }
+            ol a
+            {
+                display: block;          
+                color: white;
+                padding: 13px;
+                text-decoration:none;
+            }
+            ol a:hover
+            {
+                background-color: red;
+                padding-left: 25px;
+                text-decoration: none;
+                color: white;
+            }

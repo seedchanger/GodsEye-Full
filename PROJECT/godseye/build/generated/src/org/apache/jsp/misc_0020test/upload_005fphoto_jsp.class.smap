@@ -1,0 +1,14 @@
+SMAP
+upload_005fphoto_jsp.java
+JSP
+*S JSP
+*F
++ 0 upload_photo.jsp
+misc test/upload_photo.jsp
+*L
+5,5:44
+9:48,9
+10,10:57
+20,26:68
+45,54:94
+*E
